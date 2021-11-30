@@ -4,7 +4,7 @@ import 'package:pip_services3_commons/pip_services3_commons.dart';
 import 'package:test/test.dart';
 import 'package:pip_services_beacons_dart/pip_services_beacons_dart.dart';
 
-import '../../fixtures/TestData.dart';
+import '../../fixtures/TestUsers.dart';
 import '../../fixtures/TestReferences.dart';
 import '../../fixtures/TestRestClient.dart';
 

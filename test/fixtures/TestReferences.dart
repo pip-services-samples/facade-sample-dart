@@ -8,7 +8,7 @@ import 'package:pip_services3_container/pip_services3_container.dart';
 import 'package:pip_services3_rpc/pip_services3_rpc.dart';
 import 'package:pip_services_accounts/pip_services_accounts.dart';
 
-import 'TestData.dart';
+import 'TestUsers.dart';
 
 class TestReferences extends ManagedReferences {
   final _factory = CompositeFactory(null);
@@ -54,7 +54,7 @@ class TestReferences extends ManagedReferences {
 
     // Add content management services
     // Beacons
-    put(Descriptor('pip-services-beacons', 'client', 'memory', 'default', '*'),
+    put(Descriptor('beacons', 'client', 'memory', 'default', '*'),
         BeaconsMockClientV1());
   }
 
